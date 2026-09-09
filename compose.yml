@@ -1,7 +1,7 @@
 ---
 services:
   db:
-    image: dvahesh2001/pyapp:db-image
+    image: dvahesh2001/pyapp:database-image
     deploy:
       replicas: 1
     ports:
